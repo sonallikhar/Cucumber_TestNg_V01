@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner1
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 117.036 sec <<< FAILURE! - in runner.TestRunner1
+feature(runner.TestRunner1)  Time elapsed: 36.786 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NullPointerException
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at runner.TestRunner1.feature(TestRunner1.java:41)
+Caused by: java.lang.NullPointerException: null
+	at pageObjectpackage.MobilePage.addtocarttenmobile(MobilePage.java:115)
+	at stepdefinitions.Steps.user_added_ten_phones_to_cart(Steps.java:338)
+	at ?.Then User added ten phones to cart(AddCart.feature:8)
+

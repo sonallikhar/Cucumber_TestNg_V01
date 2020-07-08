@@ -1,0 +1,739 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Successful Login with valid credentials",
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31385561224,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch browser",
+            "match": {
+              "location": "Steps.user_Launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1365104695,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Page Title should be \"Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_Title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2096577496,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Click on Signin button",
+            "match": {
+              "location": "Steps.user_Click_on_Signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1917755515,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Page Title should be \"Amazon Sign In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amazon Sign In",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_Title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 235924315,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters valid login input as \"9892674768\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9892674768",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.user_enters_valid_login_input_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175521958,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Click on Continue",
+            "match": {
+              "location": "Steps.user_Click_on_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1865417982,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters Password as \"Sonal1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sonal1",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.user_enters_Password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7700207620,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Click on login",
+            "match": {
+              "location": "Steps.user_Click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187667824,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "validate logged in user",
+            "match": {
+              "location": "Steps.validate_logged_in_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2176315195,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Click on Logout",
+            "match": {
+              "location": "Steps.user_Click_on_Logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 720220855,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Page Title should be \"Amazon Sign In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amazon Sign In",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_Title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6147383783,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Close Browser",
+            "match": {
+              "location": "Steps.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Invalid Blank login userid credential",
+        "description": "",
+        "id": "login;invalid-blank-login-userid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14897907965,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Launch browser",
+            "match": {
+              "location": "Steps.user_Launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1958902195,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Page Title should be \"Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_Title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1874654822,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Click on Signin button",
+            "match": {
+              "location": "Steps.user_Click_on_Signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 399948975,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Page Title should be \"Amazon Sign In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amazon Sign In",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_Title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000696465,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Click on Continue",
+            "match": {
+              "location": "Steps.user_Click_on_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 441917240,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Error message should be displayed as \"Enter your email or mobile phone number\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter your email or mobile phone number",
+                  "offset": 38
+                }
+              ],
+              "location": "Steps.error_message_should_be_displayed_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2774595977,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Close Browser",
+            "match": {
+              "location": "Steps.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Invalid Blank login password credential",
+        "description": "",
+        "id": "login;invalid-blank-login-password-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20128376391,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User Launch browser",
+            "match": {
+              "location": "Steps.user_Launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 960368926,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Page Title should be \"Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_Title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1230525120,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Click on Signin button",
+            "match": {
+              "location": "Steps.user_Click_on_Signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1491840848,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Page Title should be \"Amazon Sign In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amazon Sign In",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_Title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 252052984,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User enters valid login userid",
+            "match": {
+              "location": "Steps.user_enters_valid_login_userid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1318878950,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User Click on Continue",
+            "match": {
+              "location": "Steps.user_Click_on_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205024227,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User Click on login",
+            "match": {
+              "location": "Steps.user_Click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 536994769,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Error message for password displayed as \"Enter your password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter your password",
+                  "offset": 41
+                }
+              ],
+              "location": "Steps.error_message_for_password_displayed_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2731368210,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Close Browser",
+            "match": {
+              "location": "Steps.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "Invalid login userid credential",
+        "description": "",
+        "id": "login;invalid-login-userid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15547368437,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User Launch browser",
+            "match": {
+              "location": "Steps.user_Launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1521600198,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Page Title should be \"Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_Title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6745568282,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User Click on Signin button",
+            "match": {
+              "location": "Steps.user_Click_on_Signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 884897505,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Page Title should be \"Amazon Sign In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amazon Sign In",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_Title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185091147,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User enters invalid login userid",
+            "match": {
+              "location": "Steps.user_enters_invalid_login_userid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3040210240,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User Click on Continue",
+            "match": {
+              "location": "Steps.user_Click_on_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1051150366,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Error message for not registered userid should be displayed as \"We cannot find an account with that email address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "We cannot find an account with that email address",
+                  "offset": 64
+                }
+              ],
+              "location": "Steps.error_message_for_not_registered_userid_should_be_displayed_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25936149529,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Close Browser",
+            "match": {
+              "location": "Steps.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "Invalid login password credential",
+        "description": "",
+        "id": "login;invalid-login-password-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6266387951,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User Launch browser",
+            "match": {
+              "location": "Steps.user_Launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 359792008,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d83.0.4103.116)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP\u0027, ip: \u0027192.168.1.207\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\Sonal\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50878}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 36a5aa524c10479f81c5c1392aaac267\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat pageObjectpackage.HomePage.verifyHomePageTitle(HomePage.java:86)\r\n\tat stepdefinitions.Steps.page_Title_should_be(Steps.java:35)\r\n\tat ✽.Then Page Title should be \"Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in\"(Login.feature:54)\r\n",
+              "status": "failed"
+            },
+            "line": 54,
+            "name": "Page Title should be \"Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_Title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "User Click on Signin button",
+            "match": {
+              "location": "Steps.user_Click_on_Signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "Page Title should be \"Amazon Sign In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amazon Sign In",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_Title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "User enters valid login userid",
+            "match": {
+              "location": "Steps.user_enters_valid_login_userid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "User Click on Continue",
+            "match": {
+              "location": "Steps.user_Click_on_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "User enters invalid login password",
+            "match": {
+              "location": "Steps.user_enters_invalid_login_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "User Click on login",
+            "match": {
+              "location": "Steps.user_Click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "Error message getting as your password is incorrect",
+            "match": {
+              "location": "Steps.error_message_getting_as_your_password_is_incorrect()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "Close Browser",
+            "match": {
+              "location": "Steps.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 51,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

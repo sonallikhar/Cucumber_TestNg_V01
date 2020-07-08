@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Amazon" parallel="tests" thread-count="3">
+    <test name="Amazon WITH BROWSER chrome">
+    <parameter name ="browserType" value="chrome"/>
+        <classes>
+            <class name="runner.TestRunner" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,105 @@
+2020-07-08 17:07:233 INFO  TestBase:26 - ******User Launch browser *******
+2020-07-08 17:07:715 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:104 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:365 INFO  TestBase:42 - ******User Click on Signin button *******
+2020-07-08 17:07:442 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:473 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:832 INFO  TestBase:50 - ******User enters valid login userid *******
+2020-07-08 17:07:64 INFO  TestBase:58 - ******User Click on Continue *******
+2020-07-08 17:07:331 INFO  TestBase:65 - ******User enters valid password *******
+2020-07-08 17:07:494 INFO  TestBase:72 - ******User Click on login *******
+2020-07-08 17:07:954 INFO  TestBase:233 - ******User Click on Mobile Link*******
+2020-07-08 17:07:305 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:344 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:919 INFO  TestBase:177 - ******User Click on Logout*******
+2020-07-08 17:07:849 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:54 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:465 INFO  TestBase:122 - ******User Close Browser*******
+2020-07-08 17:07:893 INFO  TestBase:26 - ******User Launch browser *******
+2020-07-08 17:07:774 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:831 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:706 INFO  TestBase:42 - ******User Click on Signin button *******
+2020-07-08 17:07:188 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:249 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:648 INFO  TestBase:50 - ******User enters valid login userid *******
+2020-07-08 17:07:283 INFO  TestBase:58 - ******User Click on Continue *******
+2020-07-08 17:07:743 INFO  TestBase:65 - ******User enters valid password *******
+2020-07-08 17:07:920 INFO  TestBase:72 - ******User Click on login *******
+2020-07-08 17:07:922 INFO  TestBase:233 - ******User Click on Mobile Link*******
+2020-07-08 17:07:862 INFO  TestBase:241 - ******User Select Samsung brand*******
+2020-07-08 17:07:573 INFO  TestBase:248 - ******User Get Result*******
+2020-07-08 17:07:668 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:296 INFO  TestBase:177 - ******User Click on Logout*******
+2020-07-08 17:07:603 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:788 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:198 INFO  TestBase:122 - ******User Close Browser*******
+2020-07-08 17:07:918 INFO  TestBase:26 - ******User Launch browser *******
+2020-07-08 17:07:752 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:211 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:348 INFO  TestBase:42 - ******User Click on Signin button *******
+2020-07-08 17:07:300 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:334 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:813 INFO  TestBase:50 - ******User enters valid login userid *******
+2020-07-08 17:07:10 INFO  TestBase:58 - ******User Click on Continue *******
+2020-07-08 17:07:271 INFO  TestBase:65 - ******User enters valid password *******
+2020-07-08 17:07:435 INFO  TestBase:72 - ******User Click on login *******
+2020-07-08 17:07:883 INFO  TestBase:233 - ******User Click on Mobile Link*******
+2020-07-08 17:07:681 INFO  TestBase:241 - ******User Select Samsung brand*******
+2020-07-08 17:07:363 INFO  TestBase:256 - ******User Select Price Under Thausand*******
+2020-07-08 17:07:840 INFO  TestBase:263 - ******User Get Filter Result*******
+2020-07-08 17:07:907 INFO  TestBase:26 - ******User Launch browser *******
+2020-07-08 17:07:280 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:476 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:170 INFO  TestBase:42 - ******User Click on Signin button *******
+2020-07-08 17:07:564 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:592 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:56 INFO  TestBase:50 - ******User enters valid login userid *******
+2020-07-08 17:07:259 INFO  TestBase:58 - ******User Click on Continue *******
+2020-07-08 17:07:588 INFO  TestBase:65 - ******User enters valid password *******
+2020-07-08 17:07:782 INFO  TestBase:72 - ******User Click on login *******
+2020-07-08 17:07:699 INFO  TestBase:233 - ******User Click on Mobile Link*******
+2020-07-08 17:07:645 INFO  TestBase:241 - ******User Select Samsung brand*******
+2020-07-08 17:07:420 INFO  TestBase:271 - ******User Select Price between thausand to five thausand*******
+2020-07-08 17:07:154 INFO  TestBase:263 - ******User Get Filter Result*******
+2020-07-08 17:07:378 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:906 INFO  TestBase:177 - ******User Click on Logout*******
+2020-07-08 17:07:816 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:853 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:208 INFO  TestBase:122 - ******User Close Browser*******
+2020-07-08 17:07:644 INFO  TestBase:26 - ******User Launch browser *******
+2020-07-08 17:07:762 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:25 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:106 INFO  TestBase:42 - ******User Click on Signin button *******
+2020-07-08 17:07:267 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:300 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:728 INFO  TestBase:50 - ******User enters valid login userid *******
+2020-07-08 17:07:937 INFO  TestBase:58 - ******User Click on Continue *******
+2020-07-08 17:07:421 INFO  TestBase:65 - ******User enters valid password *******
+2020-07-08 17:07:575 INFO  TestBase:72 - ******User Click on login *******
+2020-07-08 17:07:545 INFO  TestBase:233 - ******User Click on Mobile Link*******
+2020-07-08 17:07:742 INFO  TestBase:241 - ******User Select Samsung brand*******
+2020-07-08 17:07:391 INFO  TestBase:279 - ******User Select Price Over tewenty thausand*******
+2020-07-08 17:07:420 INFO  TestBase:263 - ******User Get Filter Result*******
+2020-07-08 17:07:429 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:915 INFO  TestBase:177 - ******User Click on Logout*******
+2020-07-08 17:07:240 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:280 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:661 INFO  TestBase:122 - ******User Close Browser*******
+2020-07-08 17:07:536 INFO  TestBase:26 - ******User Launch browser *******
+2020-07-08 17:07:436 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:575 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:532 INFO  TestBase:42 - ******User Click on Signin button *******
+2020-07-08 17:07:247 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:272 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:714 INFO  TestBase:50 - ******User enters valid login userid *******
+2020-07-08 17:07:954 INFO  TestBase:58 - ******User Click on Continue *******
+2020-07-08 17:07:179 INFO  TestBase:65 - ******User enters valid password *******
+2020-07-08 17:07:319 INFO  TestBase:72 - ******User Click on login *******
+2020-07-08 17:07:787 INFO  TestBase:233 - ******User Click on Mobile Link*******
+2020-07-08 17:07:403 INFO  TestBase:86 - ******User enter value to Searchbox*******
+2020-07-08 17:07:843 INFO  TestBase:93 - ******User Click on Search button*******
+2020-07-08 17:07:824 INFO  TestBase:329 - ******Get all mobile phones having four rating add details in excle*******
+2020-07-08 17:07:292 INFO  TestBase:177 - ******User Click on Logout*******
+2020-07-08 17:07:311 INFO  TestBase:32 - ******Validate Page Title *******
+2020-07-08 17:07:343 INFO  TestBase:94 - ******Pass:Validate actual and expected *******
+2020-07-08 17:07:743 INFO  TestBase:122 - ******User Close Browser*******
